@@ -3,7 +3,7 @@
 import { TPost } from "@/types";
 
 export const getAllPosts = async () => {
-  const res = await fetch("http://localhost:5000/api/post");
+  const res = await fetch("https://find-your-place-tau.vercel.app/api/post");
 
   console.log("res. service", res);
 
@@ -15,7 +15,7 @@ export const getAllPosts = async () => {
 };
 
 export const createPost = async (data: TPost) => {
-  const res = await fetch("http://localhost:5000/api/post/create", {
+  const res = await fetch("https://find-your-place-tau.vercel.app/api/post", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

@@ -23,8 +23,8 @@ export const Navbar = () => {
           href="/"
           className="flex items-center gap-2 text-xl font-bold text-cyan-600"
         >
-          <BookOpen size={24} className="text-cyan-600" />
-          Dev <span className="text-cyan-600">Blog</span>
+          <BookOpen size={24} className="text-black" />
+          Dev<span className="text-cyan-800">Blog</span>
         </Link>
 
         {/* Desktop Links */}
